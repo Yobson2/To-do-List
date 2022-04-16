@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    text-align: center;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 400px;
+    background-color: lightsalmon;
+}
+legend{
+    font-size: xx-large;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    background-color: gray;
+}
+ input[type="number"]{
+  text-align: center;
+  width: 50px;
+} 
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+    color: brown;
+}
+input[type="text"]{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+ #ajoutez {
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    background-color: aqua;
+}
+#ajoutez:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+i{
+    margin-left: 200px;
+    color: black;
+    cursor: pointer;
+
+}
+/* les paragraphes avec la class="taches" */
+.taches{
+    background-color: aliceblue;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 20px;
+}
